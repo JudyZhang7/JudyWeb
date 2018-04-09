@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+	margin: 0px;
+	padding: 0;
+	background: white;
+	color: black;
+	font-size: 14px;
+	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
+}
+h1{
+	font-size: 30px;
+}
+p{
+	font-size: 15px;	
+}
+.logo{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+/* Menubar */
+#menubar{
+	float: right;
+}
+ul {
+	z-index: 100;
+	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #585858;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #aeaeae;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
